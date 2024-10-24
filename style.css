@@ -74,3 +74,9 @@
   font-size: large;
   line-height: 25px;
 }
+
+.content p a {
+  text-decoration: none;
+  color: #fff;
+  font-size: xx-large;
+}
