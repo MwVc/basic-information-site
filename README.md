@@ -14,7 +14,7 @@ The aim of this project is to get comfortable with building and serving content 
 .
 ├── index.js           # Node.js server file
 ├── index.html         # Home page
-├── about.html         # About page
+├── about.html         # About page~
 ├── contact-me.html    # Contact page
 └── 404.html           # 404 error page
 ```
