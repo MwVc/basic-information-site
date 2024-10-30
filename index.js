@@ -1,7 +1,7 @@
 const http = require("http");
 const fs = require("fs");
 const path = require("path");
-const { error, log } = require("console");
+const { log } = require("console");
 
 const server = http.createServer((req, res) => {
   if (req.url === "/") {
