@@ -4,6 +4,7 @@
   "description": "This project is a simple Node.js server that serves an informational site with four basic pages: Home, About, Contact, and a 404 error page. The aim of this project is to get comfortable with building and serving content with Node.js by routing different URLs to specific HTML files.",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon express-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
