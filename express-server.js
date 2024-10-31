@@ -3,6 +3,7 @@ const path = require("path");
 
 const app = express();
 
+// setup static and middleware
 app.use(express.static("./public"));
 
 app.get("/", (req, res) => {
@@ -15,6 +16,14 @@ app.get("/about", (req, res) => {
 
 app.get("/contact-me", (req, res) => {
   res.sendFile(path.resolve(__dirname, "contact-me.html"));
+});
+
+app.get("/json", (req, res) => {
+  res.json([
+    { name: "Victor", age: 44 },
+    { name: "Mwadime", age: 56 },
+    { name: "John", age: 89 },
+  ]);
 });
 
 app.all("*", (req, res) => {
